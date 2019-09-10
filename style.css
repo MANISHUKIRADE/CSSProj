@@ -1,0 +1,275 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: #343D45;
+    margin-bottom: 0px;
+}
+
+li {
+    float: left;
+    margin: 15px;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.pageContainer {
+    overflow: hidden;
+    background-color: white;
+}
+
+.userProf {
+    background-color: #9d7dfb;
+    text-align: center;
+    height: 350px;
+}
+
+.userImage {
+    border-radius: 50%;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    top: 25px;
+}
+
+.nameDetails {
+    position: relative;
+    top: 5px;
+}
+
+.designationDetails {
+    position: relative;
+    top: 0px;
+}
+
+.profSepartor {
+    top: 0px;
+    position: relative;
+}
+
+.inputSepartor {
+    top: -14px;
+    position: relative;
+}
+
+.demoNav {
+    font-size: 17;
+    position: relative;
+    left: 20%;
+}
+
+.otherNav {
+    position: relative;
+    font-size: 12;
+    left: 60%;
+}
+
+.contactInput {
+    text-align: center;
+    margin-top: 1px;
+    padding-top: 1px;
+}
+
+.formSize {
+    height: 280px;
+    position: relative;
+}
+
+.inp {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    max-width: 280px;
+}
+
+.inp .label {
+    position: absolute;
+    top: 16px;
+    left: 0;
+    font-size: 16px;
+    color: #9098a9;
+    font-weight: 500;
+    transform-origin: 0 0;
+    transition: all 0.2s ease;
+}
+
+.inp .border {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: #07f;
+    transform: scaleX(0);
+    transform-origin: 0 0;
+    transition: all 0.15s ease;
+}
+
+.inp input {
+    -webkit-appearance: none;
+    width: 100%;
+    border: 0;
+    font-family: inherit;
+    padding: 12px 0;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid #c8ccd4;
+    background: none;
+    border-radius: 0;
+    color: #223254;
+    transition: all 0.15s ease;
+}
+
+.inp textarea {
+    -webkit-appearance: none;
+    width: 100%;
+    border: 0;
+    font-family: inherit;
+    padding: 12px 0;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid #c8ccd4;
+    background: none;
+    border-radius: 0;
+    color: #223254;
+    transition: all 0.15s ease;
+}
+
+.inp input:hover {
+    background: rgba(34, 50, 84, 0.03);
+}
+
+.inp input:not(:placeholder-shown)+span {
+    color: #5a667f;
+    transform: translateY(-26px) scale(0.75);
+}
+
+.inp input:focus {
+    background: none;
+    outline: none;
+}
+
+.inp input:focus+span {
+    color: #07f;
+    transform: translateY(-26px) scale(0.75);
+}
+
+.inp input:focus+span+.border {
+    transform: scaleX(1);
+}
+
+.inp textarea:hover {
+    background: rgba(34, 50, 84, 0.03);
+}
+
+.inp textarea:not(:placeholder-shown)+span {
+    color: #5a667f;
+    transform: translateY(-26px) scale(0.75);
+}
+
+.inp textarea:focus {
+    background: none;
+    outline: none;
+}
+
+.inp textarea:focus+span {
+    color: #07f;
+    transform: translateY(-26px) scale(0.75);
+}
+
+.inp textarea:focus+span+.border {
+    transform: scaleX(1);
+}
+
+.formElement {
+    position: relative;
+    left: 24%;
+    width: 50%;
+    align-content: center;
+}
+
+.buttonsubmit {
+    padding: 10px 15px;
+    position: relative;
+    color: #fff;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    font-size: 10px;
+    right: 24%;
+}
+
+.footerSecton {
+    background-color: #343D45;
+    color: white;
+    right: 200px;
+    height: 15%;
+}
+
+.locationAlign {
+    text-align: center;
+    position: relative;
+    right: -2%;
+    width: 44%;
+}
+
+.textArea label input {
+    height: 20px;
+}
+
+.addressSize {
+    font-size: 13px;
+}
+
+.aroundWeb {
+    position: relative;
+    text-align: center;
+    bottom: 97px;
+    right: 10%;
+    width: 129%;
+}
+
+.iconscolor a i {
+    margin: 5px;
+    size: 13px;
+    color: blanchedalmond;
+}
+
+.aboutNexsales {
+    position: relative;
+    bottom: 175px;
+    right: -34%;
+    text-align: center;
+}
+
+.copyRight {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background-color: #333333;
+    font-size: 17px;
+    height: 2%;
+}
+
+.footerAlign {
+    position: relative;
+    top: 50PX;
+    right: 5%;
+}
