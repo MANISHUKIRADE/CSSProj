@@ -9,7 +9,7 @@ ul {
     padding: 0;
     overflow: hidden;
     list-style-type: none;
-    background-color: #343D45;
+    background-color: #040404;
     margin-bottom: 0px;
 }
 
@@ -32,12 +32,14 @@ li a:hover {
 .pageContainer {
     overflow: hidden;
     background-color: white;
+    height: 99%;
 }
 
 .userProf {
-    background-color: #9d7dfb;
+    background-color: #0D0D0D;
     text-align: center;
     height: 350px;
+    color: #FFFFFF;
 }
 
 .userImage {
@@ -84,6 +86,10 @@ li a:hover {
     text-align: center;
     margin-top: 1px;
     padding-top: 1px;
+    background-color: #181818;
+    margin-top: 0;
+    color: #FFFF;
+    height: 395px;
 }
 
 .formSize {
@@ -133,7 +139,7 @@ li a:hover {
     border-bottom: 2px solid #c8ccd4;
     background: none;
     border-radius: 0;
-    color: #223254;
+    color: #FFF;
     transition: all 0.15s ease;
 }
 
@@ -149,7 +155,7 @@ li a:hover {
     border-bottom: 2px solid #c8ccd4;
     background: none;
     border-radius: 0;
-    color: #223254;
+    color: #FFF;
     transition: all 0.15s ease;
 }
 
@@ -211,17 +217,19 @@ li a:hover {
     padding: 7px 6px;
     position: relative;
     color: #fff;
-    background-color: #4CAF50;
+    background-color: #0A0A0A;
     border-radius: 5px;
     font-size: 10px;
     right: 25%;
 }
 
 .footerSecton {
-    background-color: #343D45;
+    position: relative;
+    background-color: #101010;
     color: white;
-    right: 200px;
-    height: 15%;
+    right: 0px;
+    height: 14%;
+    top: -21px;
 }
 
 .locationAlign {
@@ -267,7 +275,7 @@ li a:hover {
     background-color: #333333;
     font-size: 17px;
     height: 2%;
-    bottom: 13px;
+    bottom: 34px;
 }
 
 .footerAlign {
