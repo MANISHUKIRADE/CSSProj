@@ -207,13 +207,14 @@ li a:hover {
 }
 
 .buttonsubmit {
-    padding: 10px 15px;
+    bottom: -10px;
+    padding: 7px 6px;
     position: relative;
     color: #fff;
     background-color: #4CAF50;
     border-radius: 5px;
     font-size: 10px;
-    right: 24%;
+    right: 25%;
 }
 
 .footerSecton {
@@ -266,6 +267,7 @@ li a:hover {
     background-color: #333333;
     font-size: 17px;
     height: 2%;
+    bottom: 13px;
 }
 
 .footerAlign {
